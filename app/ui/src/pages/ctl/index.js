@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import './index.css';
 
-function Home(props) {
+function Ctl(props) {
 
   var pin = useRef()
 
@@ -10,7 +10,7 @@ function Home(props) {
   },[])
 
   return (
-    <div className='home'>
+    <div className='ctl'>
       <input className='pin' type={"password"} ref={pin}/>
       <button className='pingo' onClick={()=>{
         if(pin.current.value=="8379"){
@@ -22,4 +22,4 @@ function Home(props) {
 
 }
 
-export default Home;
+export default Ctl;
