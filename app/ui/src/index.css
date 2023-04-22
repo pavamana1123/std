@@ -11,10 +11,6 @@ body {
   font-family: 'Domine', serif;
 }
 
-div {
-  color: black;
-}
-
 ::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
